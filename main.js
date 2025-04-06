@@ -22,3 +22,17 @@ if (temperatyra < 0) {
     else if (chek=>5000){
         console.log(chek-(chek*10/100));
     }
+const vozrast = "70";
+if (vozrast < 0) {
+   console.log("Укажите верный возраст"); 
+}
+else if (vozrast >=0 && vozrast <= 18 ) {
+    console.log("Подросток");
+}
+else if (vozrast >= 18 && vozrast <=65 ) {
+    console.log("Взрослый");
+}
+else if (vozrast > 65){
+    console.log("Пенсионер");
+}
+
