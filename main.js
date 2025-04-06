@@ -1,3 +1,13 @@
-console.log('1' + 1); // 11
-console.log(22 + 'mango'); // 22mango
-console.log(true + true); // 2
+const temperatyra = "3";
+if (temperatyra < 0) {
+    console.log("ПИздец как холодно");
+}
+    else if (temperatyra >= 0 && temperatyra <=5) {
+        console.log("Прохладно так плюс минус");
+}
+     else if  (temperatyra >= 5 && temperatyra <= 20) {
+        console.log("Тепло братка");
+    }
+    else (
+        console.log("Тепло")
+    )
