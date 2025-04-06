@@ -11,3 +11,14 @@ if (temperatyra < 0) {
     else (
         console.log("Тепло")
     )
+
+    const chek = "5000";
+    if (chek<1000){
+        console.log("1000")
+    }
+    else if (chek=>1000){
+        console.log(chek - (chek*5/100));
+    }
+    else if (chek=>5000){
+        console.log(chek-(chek*10/100));
+    }
