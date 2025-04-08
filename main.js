@@ -36,3 +36,12 @@ else if (vozrast > 65){
     console.log("Пенсионер");
 }
 
+const time = 1;
+const opening  = 9;
+const closing = 18;
+if (time >= opening && time < closing ){
+    console.log("Магазин открыт");
+} else {
+    console.log ("Магазин закрыт");
+}
+
